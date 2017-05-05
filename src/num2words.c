@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 #include "lang-swedish.h"
+#include "lang-danish.h"
 #include "lang-english.h"
 #include "lang-norwegian.h"
 #include "lang-dutch.h"
@@ -21,6 +22,10 @@ void set_language(uint8_t lang) {
 
     case LANG_SE:
       language = &LANG_SWEDISH;
+      break;
+
+    case LANG_DA:
+      language = &LANG_DANISH;
       break;
 
     case LANG_NO:

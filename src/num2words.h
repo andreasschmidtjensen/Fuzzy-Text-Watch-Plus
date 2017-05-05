@@ -10,6 +10,7 @@
 #define LANG_ES 6
 #define LANG_GE 7
 #define LANG_GW 8
+#define LANG_DA 9
 
 typedef struct {
 	const int const hours;
